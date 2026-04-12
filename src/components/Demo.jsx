@@ -15,15 +15,13 @@ export default function Demo() {
         🎥 Project Demo
       </h1>
 
-      {/* VIDEO ONLY (NO BACKGROUND BOX) */}
-      <div className="relative z-10 flex justify-center items-center">
+      {/* VIDEO CONTAINER */}
+      <div className="relative z-10 flex justify-center items-center w-full max-w-4xl">
 
         <video
           src={demoVideo}
           controls
-          className="rounded-2xl shadow-2xl 
-          w-[500px] md:w-[700px]
-          transform rotate-[-90deg] origin-center"
+          className="w-full h-auto rounded-2xl shadow-2xl object-contain"
         />
 
       </div>
