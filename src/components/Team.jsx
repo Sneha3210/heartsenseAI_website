@@ -12,7 +12,6 @@ export default function Team() {
       roll: "22B61A0507",
       dept: "Computer Science and Engineering",
       role: "Team Lead · App & AI Developer",
-      icon: "🧠",
       img: sneha,
     },
     {
@@ -20,7 +19,6 @@ export default function Team() {
       roll: "23B65A0501",
       dept: "Computer Science and Engineering",
       role: "Hardware Integration & Maintenance",
-      icon: "🔌",
       img: adithya,
     },
     {
@@ -28,7 +26,6 @@ export default function Team() {
       roll: "23B65A0503",
       dept: "Computer Science and Engineering",
       role: "Data Processing & Documentation",
-      icon: "📊",
       img: harsha,
     },
     {
@@ -36,7 +33,6 @@ export default function Team() {
       roll: "23B65A0505",
       dept: "Computer Science and Engineering",
       role: "System Architect & IoT Integration",
-      icon: "🌐",
       img: sathwika,
     },
   ];
@@ -150,7 +146,7 @@ export default function Team() {
             <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full text-sm font-medium 
               bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow-md">
 
-              🎓 Project Mentor
+              🎓Project Mentor
 
             </div>
 
